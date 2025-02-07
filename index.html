@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dyna - Consultoria e Manutenção de Informática</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo_dyna.png" alt="Logo Dyna" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#clients">Clientes</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Bem-vindo à Dyna</h1>
+        <p>Somos uma empresa líder em automação comercial, especializada em soluções tecnológicas para otimizar o desempenho de negócios. Desde a configuração e manutenção de equipamentos até a criação de redes seguras e estáveis, nosso objetivo é impulsionar o crescimento de sua empresa com tecnologia de ponta.</p>
+        <p>Com uma equipe altamente qualificada, fornecemos consultoria estratégica, ajudamos na escolha dos melhores equipamentos e garantimos que seu parque tecnológico esteja sempre atualizado e funcionando de forma eficiente.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Montagem e Configuração de Computadores e Redes</li>
+            <li>Manutenção Preventiva e Corretiva</li>
+            <li>Segurança da Informação e Proteção de Dados</li>
+            <li>Consultoria em Automação Comercial</li>
+            <li>Treinamento e Suporte Técnico</li>
+        </ul>
+    </section>
+
+    <section id="clients">
+        <h2>Nossos Clientes</h2>
+        <p>Com orgulho, gerenciamos a infraestrutura de empresas renomadas como:</p>
+        <ul>
+            <li>Restaurante Caranguejo do Assis</li>
+            <li>Açaí e Cia</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <p>Deseja saber como podemos ajudar seu negócio? Preencha o formulário abaixo e entraremos em contato!</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dyna - Soluções em Tecnologia. Todos os direitos reservados.</p>
+    </footer>
+
+    <div class="whatsapp" onclick="openWhatsApp()">
+        <img src="./img/logo_whats.png" alt="WhatsApp">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
